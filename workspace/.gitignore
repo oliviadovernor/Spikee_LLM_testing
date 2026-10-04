@@ -1,0 +1,16 @@
+# API keys — never commit
+.env
+
+# Generated datasets (reproducible via build_datasets.sh)
+datasets/*-dataset-*.jsonl
+datasets/old/
+datasets/seeds-harmful-all-jailbreaks/
+
+# Results (large, may contain sensitive prompt/response data)
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
